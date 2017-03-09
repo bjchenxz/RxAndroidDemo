@@ -63,7 +63,7 @@ public class XHttpClient {
         try {
             Response response = mOkHttpClient.newCall(request).execute();
             if(response != null && response.isSuccessful()){
-                result = response.body().toString();
+                result = response.body().string();
             }
         } catch (IOException e) {
             e.printStackTrace();
