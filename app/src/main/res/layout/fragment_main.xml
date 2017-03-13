@@ -12,6 +12,10 @@
             android:id="@+id/btn_net"
             style="@style/style_btn"
             android:text="@string/btn_net_request" />
+        <Button
+            android:id="@+id/btn_net2"
+            style="@style/style_btn"
+            android:text="@string/btn_net_request2" />
 
     </LinearLayout>
 </ScrollView>

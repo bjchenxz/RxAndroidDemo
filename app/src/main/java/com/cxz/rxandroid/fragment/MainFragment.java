@@ -31,6 +31,11 @@ public class MainFragment extends Fragment{
         open(new NetFragment());
     }
 
+    @OnClick(R.id.btn_net2)
+    public void btn_net2(){
+        open(new Net2Fragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
