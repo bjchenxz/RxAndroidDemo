@@ -17,5 +17,15 @@
             style="@style/style_btn"
             android:text="@string/btn_net_request2" />
 
+        <Button
+            android:id="@+id/btn_not_more"
+            style="@style/style_btn"
+            android:text="@string/btn_not_more_click" />
+
+        <Button
+            android:id="@+id/btn_checkbox_state_update"
+            style="@style/style_btn"
+            android:text="@string/btn_checkbox_state_update" />
+
     </LinearLayout>
 </ScrollView>
