@@ -3,13 +3,11 @@ package com.cxz.rxandroid.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.cxz.rxandroid.R;
-import com.cxz.rxandroid.utils.XLog;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -46,6 +44,11 @@ public class MainFragment extends Fragment{
     @OnClick(R.id.btn_checkbox_state_update)
     public void btn_checkbox_state_update(){
         open(new CheckBoxUpdateFragment());
+    }
+
+    @OnClick(R.id.btn_text_change)
+    public void btn_text_change(){
+        open(new SearchTextChangeFragment());
     }
 
     /**

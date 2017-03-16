@@ -27,5 +27,10 @@
             style="@style/style_btn"
             android:text="@string/btn_checkbox_state_update" />
 
+        <Button
+            android:id="@+id/btn_text_change"
+            style="@style/style_btn"
+            android:text="@string/btn_text_change" />
+
     </LinearLayout>
 </ScrollView>
