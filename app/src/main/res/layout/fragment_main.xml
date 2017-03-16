@@ -32,5 +32,10 @@
             style="@style/style_btn"
             android:text="@string/btn_text_change" />
 
+        <Button
+            android:id="@+id/btn_buffer"
+            style="@style/style_btn"
+            android:text="@string/btn_buffer" />
+
     </LinearLayout>
 </ScrollView>

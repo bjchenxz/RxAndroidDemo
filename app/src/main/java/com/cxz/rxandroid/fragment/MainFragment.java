@@ -51,6 +51,11 @@ public class MainFragment extends Fragment{
         open(new SearchTextChangeFragment());
     }
 
+    @OnClick(R.id.btn_buffer)
+    public void btn_buffer(){
+        open(new BufferFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
