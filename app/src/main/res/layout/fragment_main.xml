@@ -52,5 +52,10 @@
             style="@style/style_btn"
             android:text="@string/btn_loop" />
 
+        <Button
+            android:id="@+id/btn_timer"
+            style="@style/style_btn"
+            android:text="@string/btn_timer" />
+
     </LinearLayout>
 </ScrollView>

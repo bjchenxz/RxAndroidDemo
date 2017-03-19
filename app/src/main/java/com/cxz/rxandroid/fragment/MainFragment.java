@@ -71,6 +71,11 @@ public class MainFragment extends Fragment{
         open(new LoopFragment());
     }
 
+    @OnClick(R.id.btn_timer)
+    public void btn_timer(){
+        open(new TimerFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
