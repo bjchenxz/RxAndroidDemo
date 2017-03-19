@@ -61,6 +61,11 @@ public class MainFragment extends Fragment{
         open(new ZipFragment());
     }
 
+    @OnClick(R.id.btn_concat)
+    public void btn_concat(){
+        open(new ConcatFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
