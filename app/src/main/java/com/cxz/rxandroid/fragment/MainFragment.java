@@ -56,6 +56,11 @@ public class MainFragment extends Fragment{
         open(new BufferFragment());
     }
 
+    @OnClick(R.id.btn_zip)
+    public void btn_zip(){
+        open(new ZipFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
