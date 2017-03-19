@@ -66,6 +66,11 @@ public class MainFragment extends Fragment{
         open(new ConcatFragment());
     }
 
+    @OnClick(R.id.btn_loop)
+    public void btn_loop(){
+        open(new LoopFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment

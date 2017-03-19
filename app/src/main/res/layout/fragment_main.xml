@@ -47,5 +47,10 @@
             style="@style/style_btn"
             android:text="@string/btn_concat" />
 
+        <Button
+            android:id="@+id/btn_loop"
+            style="@style/style_btn"
+            android:text="@string/btn_loop" />
+
     </LinearLayout>
 </ScrollView>
