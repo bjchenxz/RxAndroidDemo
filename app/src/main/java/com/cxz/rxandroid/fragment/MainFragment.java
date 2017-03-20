@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.cxz.rxandroid.R;
+import com.cxz.rxandroid.rxbus.RxBusFragment;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -74,6 +75,11 @@ public class MainFragment extends Fragment{
     @OnClick(R.id.btn_timer)
     public void btn_timer(){
         open(new TimerFragment());
+    }
+
+    @OnClick(R.id.btn_rxbus)
+    public void btn_rxbus(){
+        open(new RxBusFragment());
     }
 
     /**

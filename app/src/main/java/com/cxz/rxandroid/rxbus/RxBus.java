@@ -10,12 +10,26 @@ import rx.subjects.Subject;
  */
 public class RxBus {
 
+    private static RxBus mRxBus = null;
+
     //private final PublishSubject<Object> _bus = PublishSubject.create();//线程不安全
 
     private final Subject<Object,Object> _bus = new SerializedSubject<>(PublishSubject.create());
 
+    public static RxBus getInstance(){
+        if(mRxBus == null){
+            synchronized (RxBus.class){
+                if(mRxBus == null){
+                    mRxBus = new RxBus();
+                }
+            }
+        }
+        return mRxBus;
+    }
+
     public void send(Object o){
-        _bus.onNext(o);
+        if(hasObservers())
+            _bus.onNext(o);
     }
 
     /**

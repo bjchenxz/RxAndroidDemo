@@ -57,5 +57,10 @@
             style="@style/style_btn"
             android:text="@string/btn_timer" />
 
+        <Button
+            android:id="@+id/btn_rxbus"
+            style="@style/style_btn"
+            android:text="@string/btn_rxbus" />
+
     </LinearLayout>
 </ScrollView>
