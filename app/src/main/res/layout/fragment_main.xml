@@ -67,5 +67,10 @@
             style="@style/style_btn"
             android:text="@string/btn_publish" />
 
+        <Button
+            android:id="@+id/btn_subscriber"
+            style="@style/style_btn"
+            android:text="@string/btn_reuse_subscriber" />
+
     </LinearLayout>
 </ScrollView>

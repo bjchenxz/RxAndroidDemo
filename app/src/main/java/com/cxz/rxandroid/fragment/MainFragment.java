@@ -87,6 +87,11 @@ public class MainFragment extends Fragment{
         open(new PublishSubjectFragment());
     }
 
+    @OnClick(R.id.btn_subscriber)
+    public void btn_subscriber(){
+        open(new SubscriberFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment
