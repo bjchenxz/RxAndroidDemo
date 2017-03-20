@@ -82,6 +82,11 @@ public class MainFragment extends Fragment{
         open(new RxBusFragment());
     }
 
+    @OnClick(R.id.btn_publish)
+    public void btn_publish(){
+        open(new PublishSubjectFragment());
+    }
+
     /**
      * 开启新的Fragment
      * @param fragment

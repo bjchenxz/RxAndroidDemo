@@ -62,5 +62,10 @@
             style="@style/style_btn"
             android:text="@string/btn_rxbus" />
 
+        <Button
+            android:id="@+id/btn_publish"
+            style="@style/style_btn"
+            android:text="@string/btn_publish" />
+
     </LinearLayout>
 </ScrollView>
